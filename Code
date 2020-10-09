@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class guessing
+{
+	public static void main(final String[] args)
+	{
+		int guess;
+		final Scanner input=new Scanner(System.in);
+		System.out.print("Enter your Guess between 1 to 100:");
+		guess=input.nextInt();
+	} //end main
+} //end class
